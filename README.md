@@ -1,2 +1,3 @@
 <h1>DoctorCare</h1>
-![Screenshot](doutor-feliz-segurando-prancheta-com-pacientes.png)
+
+![doctorcare pic](https://github.com/jose-pires-neto/DoctorCare/issues/2#issue-1234581772)
