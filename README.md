@@ -1,6 +1,10 @@
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
- </head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DoctorCare</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
     <header>
       <h1 id="title">DoctorCare | NLW Return</h1>
@@ -33,3 +37,57 @@
           />
         </defs>
       </svg>
+    </header>
+    <section>
+      <header>
+        <h2 class="subtitle">Posts</h2>
+      </header>
+      <article class="post">
+        <header>
+          <h3 class="post_title">Post #1</h3>
+          <img
+            class="post_image"
+            src="postagem.jpg"
+            alt="Editor de codigo contendo codigo HTML"
+          />
+        </header>
+        <p class="post_content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+          <a href="https://github.com/jose-pires-neto" target="_blank">
+            Lorem Ipsum has been the industry's</a
+          >
+          standard dummy text ever since the 1500s, when an unknown printer took
+          a galley of type and
+          <a href="mailto:jose88pires@gmail.com" target="_blank">
+            scrambled it to make a type </a
+          >specimen book. It has survived not only five centuries, but also the
+          leap into electronic typesetting, remaining essentially unchanged. It
+          was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <ul class="contacts_list">
+        <li>
+          <a href="jose88pires@gmail.com">jose88pires@gmail.com</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/josé-pires-oliveira-a97430237/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/jose-pires-neto" target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
