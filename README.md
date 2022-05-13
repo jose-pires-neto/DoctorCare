@@ -15,3 +15,9 @@
 O projeto constitui em um site de odontologista, contendo informações de contatos e atendimento, o básico, e até links sociais. O projeto foi concluido durante os 5 dias do evento NLW Return.
 
 <h2>Funcionalidades</h2>
+<h4>Versão para Desktop:</h4>
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/103378551/168309378-1671daf5-6ba8-4bee-b223-f81d30819422.gif)
+
+<h4>Versão para Mobile:</h4>
+
