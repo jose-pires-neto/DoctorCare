@@ -1,15 +1,14 @@
-window.addEventListener('scroll', onScroll)
-
-onScroll()
 function onScroll() {
   showNavOnScroll()
   showBackToTopButtonOnScroll()
-
+  
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
+
+window.addEventListener('scroll', onScroll)
 
 function activateMenuAtCurrentSection(section) {
   const targetLine = scrollY + innerHeight / 2
@@ -39,6 +38,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+  const navigation = document.getElementById('navigation');
   if (scrollY > 0) {
     navigation.classList.add('scroll')
   } else {
