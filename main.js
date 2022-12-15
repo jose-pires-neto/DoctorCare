@@ -76,3 +76,5 @@ ScrollReveal({
   #about, 
   #about header, 
   #about .content`)
+
+//alteração
